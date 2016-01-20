@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+       <TextView
+          android:id="@+id/text_section_chapter"
+           android:layout_marginTop="15dp"
+           android:paddingLeft="10dp"
+           android:paddingTop="10dp"
+           android:text="12"
+           android:textColor="@color/white"
+           android:background="@mipmap/section_icon"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/text_section_ser"
+            android:layout_marginLeft="5dp"
+            android:text="01"
+            android:textSize="10sp"
+            android:textColor="@color/red"
+            android:layout_width="15dp"
+            android:layout_height="10dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_marginTop="18dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tv_section_title"
+                    android:text="adfasf"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <LinearLayout
+                    android:gravity="right"
+                    android:layout_gravity="right"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp">
+                    <TextView
+                        android:id="@+id/tv_secion_time"
+                        android:text="20120123"
+                        android:textColor="#989898"
+                        android:textSize="12sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/tv_section_content"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_section_authoricon"
+                    android:src="@mipmap/test_icon"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp" />
+
+                <TextView
+                  android:text="123132"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#989898"
+                    android:id="@+id/tv_section_author"
+                    android:layout_width="50sp"
+                    android:textSize="12sp"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:gravity="right"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:textColor="#989898"
+                        android:layout_marginLeft="15dp"
+                        android:src="@mipmap/zan"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp" />
+                    <TextView
+
+                        android:text="10"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="#989898"
+                        android:id="@+id/tv_section_praise"
+                        android:textSize="12sp"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp" />
+                    <ImageView
+                        android:layout_marginLeft="5dp"
+                        android:src="@mipmap/track"
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content" />
+                    <TextView
+
+                        android:layout_marginLeft="5dp"
+                        android:text="10"
+                        android:textColor="#989898"
+                        android:id="@+id/tv_section_track"
+                        android:textSize="12sp"
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

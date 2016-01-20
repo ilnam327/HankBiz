@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">众说</string>
+
+
+
+    <string name="page_1_20">1-20</string>
+    <string name="page_21_40">21-40</string>
+    <string name="page_41_60">41-60</string>
+    <string name="page_61_80">61-80</string>
+    <string name="page_81_100">81-100</string>
+    <string name="page_101_120">101-120</string>
+    <string name="page_121_140">121-140</string>
+    <string name="page_141_160">141-160</string>
+    <string name="page_161_180">161-180</string>
+    <string name="page_181_200">181-200</string>
+    <string name="follow_yet">已关注</string>
+    <string name="follow">关注</string>
+    <string name="write_book_hint">小说名称</string>
+    <string name="write_bookprofile_hint">小说简介</string>
+
+    <string name="write_chapter_hint">文章标题</string>
+    <string name="write_chapter_profile_hint">文章内容</string>
+    <string name="take_photo">拍照</string>
+    <string name="pick_photo">相册</string>
+    <string name="photoPickerNotFoundText">NotFoundException</string>
+    <string name="photoPickerNotFoundText1">ActivityNotFoundException</string>
+    <string name="attachToContact">上传头像</string>
+</resources>

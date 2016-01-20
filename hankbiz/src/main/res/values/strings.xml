@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">HankBiz</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="LvImgActivity">异步加载列表图片样例</string>
+    <!--<string name="action_about">关于</string>-->
+    <!--<string name="action_search">搜索</string>-->
+    <!--<string name="action_favrate">收藏</string>-->
+    <!--<string name="action_setting">设置</string>-->
+    <!--<string name="action_submit">提交</string>-->
+    <!--<string name="action_share">分享</string>-->
+    <!--<string name="action_settings">设置</string>-->
+    <!--<string name="action_change_dataset">Change dataset</string>-->
+</resources>

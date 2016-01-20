@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/liner_read"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:background="#39a0e5"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_read_back"
+            android:layout_centerVertical="true"
+            android:textColor="@color/white"
+            android:text="返回"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:layout_centerInParent="true"
+            android:id="@+id/tv_bookName"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/white"
+            android:text="阅读"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_read_title"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="adfadf"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img_read_icon"
+                android:src="@mipmap/pic05"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/tv_read_author"
+                android:textSize="14sp"
+                android:layout_marginLeft="5dp"
+                android:text="adfa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tv_read_timelog"
+                android:layout_marginLeft="30dp"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:background="#d3d7d4"
+            android:layout_width="match_parent"
+            android:layout_height="0.5sp" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_above="@+id/liner_fooder"
+                android:layout_margin="10dp"
+                android:id="@+id/tv_read_content"
+                android:scrollbars="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+
+            <LinearLayout
+                android:id="@+id/liner_fooder"
+                android:orientation="vertical"
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:gravity="center_horizontal"
+                    android:background="@color/white"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+
+
+                    <ImageButton
+                        android:id="@+id/img_read_pre"
+                        android:layout_gravity="center_vertical"
+                        android:background="@mipmap/pre"
+                        android:layout_width="80dp"
+                        android:layout_height="35dp" />
+                    <ImageButton
+                        android:id="@+id/img_read_next"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="@mipmap/next"
+                        android:layout_width="80dp"
+                        android:layout_height="35dp" />
+                    <Button
+                        android:id="@+id/btn_read_zan"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="@mipmap/off_zhan"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp" />
+                    <Button
+                        android:id="@+id/btn_read_collect"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="@mipmap/collect_read_off"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp" />
+                    <Button
+                        android:visibility="gone"
+                        android:id="@+id/btn_read_more"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="@mipmap/more"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp" />
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+</LinearLayout>
+
+
+

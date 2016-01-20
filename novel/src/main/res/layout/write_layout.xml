@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:paddingLeft="@dimen/titlebar_paddingLeft"
+        android:paddingRight="10dp"
+        android:gravity="center_vertical"
+        android:background="#39a0e5"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" >
+        <TextView
+            android:id="@+id/text_write_back"
+            android:layout_centerVertical="true"
+            android:textColor="@color/white"
+            android:text="返回"
+            android:textSize="18sp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <Button
+           android:background="@mipmap/btn_yuyin"
+
+            android:layout_centerVertical="true"
+            android:textColor="@color/white"
+            android:layout_alignParentRight="true"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/yuyin"
+            />
+
+        <TextView
+            android:id="@+id/text_write_title"
+            android:text="写文章"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:textColor="@color/white"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </RelativeLayout>
+    <ImageView
+        android:background="#d3d7d4"
+        android:layout_width="match_parent"
+        android:layout_height="0.5sp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:background="@color/white"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+            <Button
+                android:background="@mipmap/btn_temp_save"
+                android:id="@+id/btn_write_tempsave"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:gravity="center_vertical"
+                android:layout_width="60dp"
+                android:layout_height="25dp" />
+            <Button
+                android:layout_marginLeft="20dp"
+                android:id="@+id/btn_write_save"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+               android:background="@mipmap/btn_save"
+                android:layout_width="60dp"
+                android:layout_height="25dp" />
+
+
+        </LinearLayout>
+        <ImageView
+            android:background="#d3d7d4"
+            android:layout_width="match_parent"
+            android:layout_height="0.5sp" />
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_write_chapterno"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="12"
+                android:textSize="14sp"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+
+            <EditText
+                android:layout_marginLeft="10dp"
+                android:textSize="14sp"
+                android:background="@null"
+                android:id="@+id/edt_write_title"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+            
+        </LinearLayout>
+
+        
+
+        <ImageView
+            android:background="#d3d7d4"
+            android:layout_width="match_parent"
+            android:layout_height="0.5sp" />
+
+        <EditText
+            android:id="@+id/edt_write_content"
+            android:tag="suggest"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:gravity="start"
+            android:hint="鍐呭"
+            android:textSize="14sp"
+            android:inputType="textMultiLine"
+            android:background="@null"
+            android:padding="5dp"
+            android:maxLength="600"
+            android:minLines="15" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+

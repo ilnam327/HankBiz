@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">HankLib</string>
+    <string name="loading_waiting">加載中，请稍后...</string>
+</resources>
