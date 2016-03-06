@@ -44,7 +44,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener{
         uploadImage.setOnClickListener(this);
 
         imageView = (ImageView) this.findViewById(R.id.imageView);
-
+// amend version
     }
 
     @Override
@@ -125,4 +125,6 @@ public class MainActivity extends BaseActivity implements View.OnClickListener{
                 .create();
         dialog.show();
     }
+
+    /// test git version
 }
