@@ -44,7 +44,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener{
         uploadImage.setOnClickListener(this);
 
         imageView = (ImageView) this.findViewById(R.id.imageView);
-
+        //test git svn
 
     }
 
