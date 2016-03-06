@@ -45,7 +45,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener{
 
         imageView = (ImageView) this.findViewById(R.id.imageView);
         //test git svn
-
+        // test git svn 3
     }
 
     @Override
